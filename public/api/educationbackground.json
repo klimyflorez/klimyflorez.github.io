@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "[Appsco] Curso profesional de Git y GitHub",
+        "meta": "Platzi",
+        "year": "2021-02 - 2021-02"
+    },
+    {
+        "id": 2,
+        "title": "Ingeniero de Sistemas",
+        "meta": "Corporación Universitaria del Caribe - CECAR",
+        "year": "2008-02 - 2013-12"
+    },
+    {
+        "id": 3,
+        "title": "Diplomado Dispositivos Móviles",
+        "meta": "Corporación Universitaria del Caribe - CECAR",
+        "year": "2013-03 - 2013-08"
+    }
+]
