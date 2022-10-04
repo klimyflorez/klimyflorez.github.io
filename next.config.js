@@ -10,6 +10,7 @@ const nextConfig = {
         path: "/",
     },
     basePath: '/klimyflorez.github.io',
+    assetPrefix: '/klimyflorez.github.io',
 };
 
 module.exports = withPlugins(
