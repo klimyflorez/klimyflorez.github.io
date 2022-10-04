@@ -9,8 +9,8 @@ const nextConfig = {
         loader: "custom",
         path: "/",
     },
-    basePath: '/klimyflorez.github.io',
-    assetPrefix: '/klimyflorez.github.io',
+    basePath: "/klimyflorez.github.io",
+    assetPrefix: "/klimyflorez.github.io",
 };
 
 module.exports = withPlugins(
