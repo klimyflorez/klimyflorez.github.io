@@ -28,10 +28,7 @@ function MyApp({ Component, pageProps }) {
     <QueryClientProvider client={queryClientRef.current}>
       <AppProvider>
         <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1 maximum-scale=1"
-          />
+          <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
           <meta name="description" content="Hi, I am Backend Developer. I am passionate about new development technologies, creative and innovative. Trained with values and ethical principles, capable of providing optimal solutions." />          
           <meta name="keywords" content="Backend Developer, Development, Tecnology, Resume, Curriculum vitae" />
           <meta name="author" content="Klimy Florez López" />
