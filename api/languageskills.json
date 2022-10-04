@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "HTML5",
+        "percentage": 90
+    },
+    {
+        "id": 2,
+        "title": "PHP",
+        "percentage": 90
+    },
+    {
+        "id": 3,
+        "title": "JavaScript",
+        "percentage": 80
+    },
+    {
+        "id": 4,
+        "title": "Laravel",
+        "percentage": 90
+    },
+    {
+        "id": 5,
+        "title": "Vue",
+        "percentage": 70
+    },
+    {
+        "id": 6,
+        "title": "Magento 2",
+        "percentage": 85
+    },
+    {
+        "id": 7,
+        "title": "Python Flask",
+        "percentage": 60
+    },
+    {
+        "id": 8,
+        "title": "Python",
+        "percentage": 60
+    },
+    {
+        "id": 9,
+        "title": "Git, Git Flow",
+        "percentage": 85
+    },
+    {
+        "id": 10,
+        "title": "MySQL, PostgreSQL",
+        "percentage": 75
+    },
+    {
+        "id": 11,
+        "title": "Elasticsearch",
+        "percentage": 55
+    },
+    {
+        "id": 12,
+        "title": "MongoDB",
+        "percentage": 75
+    }
+]
