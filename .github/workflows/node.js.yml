@@ -13,6 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_BASE_PATH: /klimyflorez.github.io
 
     strategy:
       matrix:
@@ -20,19 +22,23 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Get files
+      uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build
-    - run: npm run export
-    - run: touch ./out/.nojekyll
-    
+    - name: Install packages
+      run: npm ci
+    - name: Build project
+      run: npm run build
+    - name: Export static files
+      run: npm run export
+    - name: Add .nojekyll file
+      run: touch ./out/.nojekyll    
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy.
+        branch: gh-pages
+        folder: out

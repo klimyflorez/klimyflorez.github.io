@@ -9,8 +9,8 @@ const nextConfig = {
         loader: "custom",
         path: "/",
     },
-    basePath: "/klimyflorez.github.io",
-    assetPrefix: "/klimyflorez.github.io",
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
 };
 
 // module.exports = nextConfig;
