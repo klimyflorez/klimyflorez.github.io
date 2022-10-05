@@ -20,7 +20,7 @@ const Homepage1 = ({ posts }) => {
   return (
     <Layout>
       <Head>
-        <title>Klimy Florez López</title>
+        <title>Klimy Florez López | Backend Developer</title>
       </Head>
 
       {/* Start Hero Section */}

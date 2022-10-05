@@ -7,7 +7,7 @@ const resume = () => {
   return (
     <Layout2>
       <Head>
-        <title>Resume - Klimy Florez López</title>
+        <title>Resume - Klimy Florez López | Backend Developer</title>
       </Head>
 
       {/* Start Skills Section */}

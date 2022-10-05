@@ -7,7 +7,7 @@ const works = () => {
   return (
     <Layout2>
       <Head>
-        <title>Portfolios - Klimy Florez López</title>
+        <title>Portfolios - Klimy Florez López | Backend Developer</title>
       </Head>
 
       {/* Start Portfolios Section */}

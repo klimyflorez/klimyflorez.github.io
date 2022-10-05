@@ -1,7 +1,8 @@
 {
-    "name": "bieber",
-    "description": "Bieber - React Personal Portfolio Template",
-    "author": "NuclearThemes",
+    "homepage": "https://klimyflorez.github.io/",
+    "name": "klimyflorez",
+    "description": "Klimy Florez López | Backend Developer",
+    "author": "klimyflorez",
     "version": "1.0.0",
     "main": "index.js",
     "private": true,

@@ -11,7 +11,7 @@ const about = () => {
   return (
     <Layout2>
       <Head>
-        <title>About - Klimy Florez López</title>
+        <title>About - Klimy Florez López | Backend Developer</title>
       </Head>
 
       {/* Start About Section */}
