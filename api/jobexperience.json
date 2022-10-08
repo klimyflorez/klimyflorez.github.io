@@ -3,14 +3,14 @@
         "id": 1,
         "title": "HIPERTEXTO - NETIZEN",
         "meta": "Full-Stack Developer",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur donec gravida ullamcorper cum id. Sit viverra donec in ornare euismod.",
+        "text": "Desarrollo, soporte y administración de E-Commerce implementados en Magento CE 2.x.x los cuales distribuyen contenido editorial en formato Impreso y digital (E-Books). Desarrollos realizados para integrar diversos sistemas de alojamiento de archivos digitales de terceros, para su ofrecimiento a través de los Catálogos y habilitar su descarga desde el Magento.",
         "year": "2021 - Present"
     },
     {
         "id": 2,
         "title": "Domiventas S.A.S",
         "meta": "Backend Developer",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur donec gravida ullamcorper cum id. Sit viverra donec in ornare euismod.",
+        "text": "Apoyo al desarrollo de la aplicación web E-Commerce. Tecnología de desarrollo Python Framework Flask. Creación de interfaz de programación de aplicaciones - APIs.",
         "year": "2020-06 - 2020-12"
     },
     {
