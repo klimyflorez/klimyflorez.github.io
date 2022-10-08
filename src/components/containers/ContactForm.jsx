@@ -41,7 +41,7 @@ const ContactForm = () => {
     <form
       ref={currentForm}
       className="card -mt-1.5  space-y-4 p-4 md:p-5"
-      onSubmit={handleSubmit(onSubmit)} style={{display:'none'}}
+      onSubmit={handleSubmit(onSubmit)}
     >
       <div className="inputbox">
         <label htmlFor="name">Name</label>
