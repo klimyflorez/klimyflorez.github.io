@@ -54,7 +54,7 @@ const Blog = ({ post: { title, date, thumb, category, slug } }) => {
         </Link>
       </h5>
       <div className="flex list-none gap-1.5 text-sm">
-        {category.map((cat, i) => (
+        {category?.map((cat, i) => (
           <span key={i} className="after:content-[','] last:after:hidden">
             <Link href={`/category/${createSlug(cat)}/1`}>
               <a className=" hover:text-primary">{cat}</a>

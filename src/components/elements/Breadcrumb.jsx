@@ -16,7 +16,7 @@ const Breadcrumb = ({ title, paths, blurred }) => {
                         <h2 className="capitalize text-primary">{title}</h2>
                         {Array.isArray(paths) && paths.length && (
                             <ul className="mb-0 inline-flex list-none flex-wrap justify-center gap-x-2 pl-0">
-                                {paths.map((path) => (
+                                {paths?.map((path) => (
                                     <li
                                         className="inline-block capitalize"
                                         key={path.name}

@@ -11,10 +11,10 @@ const SocialIcons = ({ data, rounded }) => {
 
     return (
         <ul className="mb-0 inline-flex list-none flex-wrap gap-3 pl-0 sm:gap-4">
-            {data.github && (
+            {data?.github && (
                 <li className="inline-block align-middle">
                     <a
-                        href={data.github}
+                        href={data?.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`group relative inline-block h-10 w-10 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body ${
@@ -30,10 +30,10 @@ const SocialIcons = ({ data, rounded }) => {
                     </a>
                 </li>
             )}
-            {data.linkedin && (
+            {data?.linkedin && (
                 <li className="inline-block align-middle">
                     <a
-                        href={data.linkedin}
+                        href={data?.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`group relative inline-block h-10 w-10 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body ${
@@ -49,10 +49,10 @@ const SocialIcons = ({ data, rounded }) => {
                     </a>
                 </li>
             )}
-            {data.facebook && (
+            {data?.facebook && (
                 <li className="inline-block align-middle">
                     <a
-                        href={data.facebook}
+                        href={data?.facebook}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`group relative inline-block h-10 w-10 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body ${
@@ -68,10 +68,10 @@ const SocialIcons = ({ data, rounded }) => {
                     </a>
                 </li>
             )}
-            {data.twitter && (
+            {data?.twitter && (
                 <li className="inline-block align-middle">
                     <a
-                        href={data.twitter}
+                        href={data?.twitter}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`group relative inline-block h-10 w-10 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body ${
@@ -88,10 +88,10 @@ const SocialIcons = ({ data, rounded }) => {
                 </li>
             )}
             
-            {data.dribbble && (
+            {data?.dribbble && (
                 <li className="inline-block align-middle">
                     <a
-                        href={data.dribbble}
+                        href={data?.dribbble}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`group relative inline-block h-10 w-10 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body ${

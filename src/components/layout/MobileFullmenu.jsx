@@ -12,11 +12,11 @@ const MobileFullmenu = ({ fullMenuHandler }) => {
         <RiCloseLine className="inline" />
       </button>
       <div className="sidenavmobile flex h-full flex-col justify-between p-7 text-center">
-        <Logo url="/homepage1" />
+        <Logo url="/" />
         <nav className="sidenav-mobilmenu relative max-h-full w-full overflow-y-auto">
           <ul className="mb-0 list-none pl-0">
             <li className="block">
-              <Link href="/homepage1">
+              <Link href="/">
                 <a
                   className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
                   onClick={(e) => fullMenuHandler(false)}
@@ -27,7 +27,7 @@ const MobileFullmenu = ({ fullMenuHandler }) => {
               </Link>
             </li>
             <li className="block">
-              <Link href="/about">
+              <Link href="#section-about">
                 <a
                   className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
                   onClick={(e) => fullMenuHandler(false)}
@@ -38,7 +38,18 @@ const MobileFullmenu = ({ fullMenuHandler }) => {
               </Link>
             </li>
             <li className="block">
-              <Link href="/resume">
+              <Link href="#section-skills">
+                <a
+                  className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
+                  onClick={(e) => fullMenuHandler(false)}
+                >
+                  Skills
+                  <span className="absolute left-0 top-auto bottom-5 inline-block h-px w-full origin-top-right scale-0 bg-primary align-middle transition-transform duration-500 group-hover:origin-top-left group-hover:scale-100"></span>
+                </a>
+              </Link>
+            </li>
+            <li className="block">
+              <Link href="#section-resume">
                 <a
                   className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
                   onClick={(e) => fullMenuHandler(false)}
@@ -48,7 +59,7 @@ const MobileFullmenu = ({ fullMenuHandler }) => {
                 </a>
               </Link>
             </li>
-            <li className="block">
+            <li className="block" style={{display:'none'}}>
               <Link href="/works">
                 <a
                   className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
@@ -59,7 +70,7 @@ const MobileFullmenu = ({ fullMenuHandler }) => {
                 </a>
               </Link>
             </li>
-            <li className="block">
+            <li className="block" style={{display:'none'}}>
               <Link href="/posts/1">
                 <a
                   className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
@@ -71,7 +82,7 @@ const MobileFullmenu = ({ fullMenuHandler }) => {
               </Link>
             </li>
             <li className="block">
-              <Link href="/contact">
+              <Link href="#section-contact">
                 <a
                   className="group relative inline-block cursor-pointer overflow-hidden py-2 text-lg uppercase tracking-wider text-heading before:text-primary"
                   onClick={(e) => fullMenuHandler(false)}
