@@ -43,6 +43,7 @@ const Homepage2 = ({ posts }) => {
       {/* Start Skills Section */}
       <Section
         name="section-skills"
+        id="section-skills"
         className="skills-section pt-24 lg:pt-28 xl:pt-32"
       >
         <div className="container mx-auto">
