@@ -79,7 +79,7 @@ const AboutSection = () => {
                 : {data.lastName}
               </li>
             )}
-            {data.age && (
+            {data?.age && (
               <li className="text-lg">
                 <strong className="inline-block min-w-[120px] font-medium">
                   Age{" "}
@@ -87,7 +87,7 @@ const AboutSection = () => {
                 : {data.age} years
               </li>
             )}
-            {data.professional && (
+            {data?.professional && (
               <li className="text-lg">
                 <strong className="inline-block min-w-[120px] font-medium">
                   Professional{" "}
@@ -103,12 +103,12 @@ const AboutSection = () => {
                 : {data.nationality}
               </li>
             )}
-            {data.languages.length ? (
+            {data?.languages?.length ? (
               <li className="text-lg">
                 <strong className="inline-block min-w-[120px] font-medium">
                   Languages{" "}
                 </strong>
-                : {data.languages.join(", ")}
+                : {data?.languages?.join(", ")}
               </li>
             ) : null}
             {data.address && (
@@ -119,12 +119,12 @@ const AboutSection = () => {
                 : {data.address}
               </li>
             )}
-            {data.freelance && (
+            {data?.freelance && (
               <li className="text-lg">
                 <strong className="inline-block min-w-[120px] font-medium">
                   Freelance{" "}
                 </strong>
-                : {data.freelance}
+                : {data?.freelance}
               </li>
             )}
           </ul>
