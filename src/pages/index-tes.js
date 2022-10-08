@@ -57,7 +57,7 @@ const index = ({ pages }) => {
           <div className="container mx-auto">
             <SectionHeading title="Demos" watermark="Demos" />
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
-              {pages.map((page) => (
+              {pages?.map((page) => (
                 <div className="col-span-1" key={page.id}>
                   <Link href={page.path}>
                     <a className="card hovercard block overflow-hidden">

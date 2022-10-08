@@ -74,7 +74,7 @@ const PostPage = ({ title, date, cover, category, content }) => {
               <div className="mb-0 flex gap-2 text-heading">
                 Category :{" "}
                 <div className="inline-flex list-none gap-1.5">
-                  {category.map((cat, i) => (
+                  {category?.map((cat, i) => (
                     <span
                       key={i}
                       className="after:content-[','] last:after:hidden"

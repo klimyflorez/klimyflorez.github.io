@@ -112,7 +112,7 @@ const CategoryPosts = ({ posts, hasMore, categories, recentPosts }) => {
                     Categories
                   </h5>
                   <ul className="styledlist mb-0 list-none pl-0">
-                    {uniqueCategories.map((category, i) => (
+                    {uniqueCategories?.map((category, i) => (
                       <li key={i}>
                         <Link href={`/category/${createSlug(category)}/1`}>
                           <a className="clearfix hover:text-primary">
@@ -143,7 +143,7 @@ const CategoryPosts = ({ posts, hasMore, categories, recentPosts }) => {
                     Recent Posts
                   </h5>
                   <ul className="mb-0 list-none pl-0">
-                    {recentPosts.map((post, index) => (
+                    {recentPosts?.map((post, index) => (
                       <li key={index} className="mb-4 last:mb-0">
                         <p className="mb-0">
                           <Link href={`/postdetails/${post.slug}`}>
