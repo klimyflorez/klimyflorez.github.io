@@ -2,12 +2,12 @@
     {
         "id": 1,
         "title": "Front-end Development",
-        "percentage": 55
+        "percentage": 100
     },
     {
         "id": 2,
         "title": "Back-end Development",
-        "percentage": 80
+        "percentage": 100
     },
     {
         "id": 3,
