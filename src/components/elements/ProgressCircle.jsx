@@ -39,7 +39,7 @@ const ProgressCircle = ({ skill: { title, percentage } }) => {
             transition={{ duration: 1 }}
           />
         </motion.svg>
-        <span className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 transform text-center text-xl text-body">
+        <span className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 transform text-center text-xl text-body" style={{display:'none'}}>
           {percentage}%
         </span>
       </div>

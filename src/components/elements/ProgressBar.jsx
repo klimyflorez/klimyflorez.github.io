@@ -4,7 +4,7 @@ const ProgressBar = ({ skill: { title, percentage } }) => {
     return (
         <div className="progress">
             <h5>
-                {title} - <span className="text-primary">({percentage}%)</span>
+                {title}<span className="text-primary" style={{display:'none'}}>- ({percentage}%)</span>
             </h5>
             <div className="progress-bar relative h-4 w-full rounded-full bg-primary bg-opacity-20">
                 <motion.span
