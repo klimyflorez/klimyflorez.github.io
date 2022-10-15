@@ -33,6 +33,7 @@ function MyApp({ Component, pageProps }) {
           <meta name="keywords" content="Backend Developer, Development, Tecnology, Resume, Curriculum vitae" />
           <meta name="author" content="klimyflorez" />
           <meta name="theme-color" content="#72E2AE" />
+          <meta name="google-site-verification" content="tv_kH0J2RUIxvyrTbWiOs-qq3M-Zy3cHU7zW4ICbU_c" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <link rel="manifest" href="/manifest.json" />
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
