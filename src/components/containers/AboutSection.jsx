@@ -60,7 +60,7 @@ const AboutSection = () => {
           className="about-content"
         >
           <h3>
-            Hi, I am <span className="text-primary">{data.fullName}</span>
+            Hi, I am <span className="text-primary" style={{display:'none'}}>{data.fullName}</span>
           </h3>
           <ul className="styledlist">
             {data.firstName && (

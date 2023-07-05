@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { RiCheckboxFill } from "react-icons/ri";
 
 const ProgressCircle = ({ skill: { title, percentage } }) => {
   const draw = {
@@ -40,7 +41,7 @@ const ProgressCircle = ({ skill: { title, percentage } }) => {
           />
         </motion.svg>
         <span className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 transform text-center text-xl text-body">
-          {percentage}%
+          <RiCheckboxFill className="mr-2 inline-block text-primary" />
         </span>
       </div>
       <h5>{title}</h5>
