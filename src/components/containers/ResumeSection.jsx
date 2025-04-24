@@ -5,10 +5,10 @@ const ResumeSection = () => {
     return (
         <div className="grid grid-cols-2 gap-14 lg:gap-7" id="resume">
             <div className="col-span-2 lg:col-span-1">
-                <EducationTimeline />
+                <JobTimeline />
             </div>
             <div className="col-span-2 lg:col-span-1">
-                <JobTimeline />
+                <EducationTimeline /> 
             </div>
         </div>
     );
