@@ -3,12 +3,13 @@ import JobTimeline from "./JobTimeline";
 
 const ResumeSection = () => {
     return (
-        <div className="grid grid-cols-2 gap-14 lg:gap-7" id="resume">
-            <div className="col-span-2 lg:col-span-1">
-                <JobTimeline />
+        // crea una sola columna y de primero que aparezca EducationTimeline y luego JobTimeline
+        <div className="grid grid-cols-1 gap-14 lg:gap-7" id="resume">
+            <div className="col-span-1">
+                <EducationTimeline />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-                <EducationTimeline /> 
+            <div className="col-span-1">
+                <JobTimeline />
             </div>
         </div>
     );
