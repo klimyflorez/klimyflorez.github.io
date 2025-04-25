@@ -14,7 +14,7 @@ const TimelineItem = ({ timeline: { title, meta, text, year } }) => {
                 </span>
                 <h5 className="mb-0 text-primary">{title}</h5>
                 <p className="mb-2 text-heading">{meta}</p>
-                <p>{text}</p>
+                <p style={{ textAlign: 'justify' }}>{text}</p>
             </div>
         </div>
     );
