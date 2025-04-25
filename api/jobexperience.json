@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "ADWISE, Santiago - Chile",
+        "title": "ADWISE, Santiago de Chile - Chile",
         "meta": "Full-Stack Developer",
         "text": "Colaboré en la implementación de un sistema, desarrollado en Laravel 10, que automatiza y centraliza la gestión de ventas online, integrando mediante APIs diversas plataformas E-Commerce y servicios de terceros como empresas de logística y facturación electrónica. Esta solución mejoró significativamente la eficiencia operativa y el control del proceso comercial. También formé parte del equipo encargado del desarrollo, soporte y gestión de plataformas de E-Commerce basadas en Magento Cloud y Magento Community Edition 2.x.x. Mis funciones incluyeron la resolución de tickets e implementación y personalización de módulos, integración de nuevas funcionalidades en el flujo de compra y en el backend, así como la optimización de procesos para mejorar el rendimiento y la escalabilidad del sistema.",
         "year": "2024-06 - present"
