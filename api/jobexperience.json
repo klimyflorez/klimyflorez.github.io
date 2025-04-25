@@ -1,51 +1,58 @@
 [
     {
         "id": 1,
-        "title": "HIPERTEXTO - NETIZEN",
+        "title": "ADWISE, Santiago - Chile",
         "meta": "Full-Stack Developer",
-        "text": "Desarrollo, soporte y administración de E-Commerce implementados en Magento CE 2.x.x los cuales distribuyen contenido editorial en formato Impreso y digital (E-Books). Desarrollos realizados para integrar diversos sistemas de alojamiento de archivos digitales de terceros, para su ofrecimiento a través de los Catálogos y habilitar su descarga desde el Magento.",
-        "year": "2021-03 - 2024-05"
+        "text": "Colaboré en la implementación de un sistema, desarrollado en Laravel 10, que automatiza y centraliza la gestión de ventas online, integrando mediante APIs diversas plataformas E-Commerce y servicios de terceros como empresas de logística y facturación electrónica. Esta solución mejoró significativamente la eficiencia operativa y el control del proceso comercial. También formé parte del equipo encargado del desarrollo, soporte y gestión de plataformas de E-Commerce basadas en Magento Cloud y Magento Community Edition 2.x.x. Mis funciones incluyeron la resolución de tickets e implementación y personalización de módulos, integración de nuevas funcionalidades en el flujo de compra y en el backend, así como la optimización de procesos para mejorar el rendimiento y la escalabilidad del sistema.",
+        "year": "2024-06 - present"
     },
     {
         "id": 2,
-        "title": "Domiventas S.A.S",
-        "meta": "Backend Developer",
-        "text": "Apoyo al desarrollo de la aplicación web E-Commerce. Tecnología de desarrollo Python Framework Flask. Creación de interfaz de programación de aplicaciones - APIs.",
-        "year": "2020-06 - 2020-12"
+        "title": "HIPERTEXTO - NETIZEN, Sincelejo - Colombia",
+        "meta": "Full-Stack Developer",
+        "text": "Desarrollo, soporte y gestión de plataformas de E-Commerce basadas en Magento CE 2.x.x, especializadas en la distribución de contenido editorial en formatos impresos y digitales, incluyendo e-Books. Destacada experiencia en la integración de diversos sistemas de alojamiento de archivos digitales de terceros, facilitando su accesibilidad a través de los catálogos y permitiendo su descarga directa desde la plataforma Magento. Además, amplio conocimiento en el despliegue de servidores virtuales, con proficiencia en la instalación y configuración de entornos Linux, Apache, Nginx, PHP, MySQL y Elasticsearch 7.x para garantizar un rendimiento óptimo y una experiencia de usuario fluida.",
+        "year": "2021-03 - 2024-05"
     },
     {
         "id": 3,
-        "title": "Corporación Universitaria del Caribe",
-        "meta": "Producción de Multimedia",
-        "text": "Inducción y producción de multimedia para los grupos de investigación pertenecientes al programa Ondas Sucre a través del uso de las TIC.",
-        "year": "2020-01 - 2020-05"
+        "title": "Domiventas S.A.S, Sincelejo - Colombia",
+        "meta": "Backend Developer",
+        "text": "Aporté en el análisis y desarrollo de la aplicación web E-Commerce DomiVentas. Desarrollé un sistema de chat para facilitar la comunicación entre las tiendas y los repartidores. El sistema utiliza MongoDB para el almacenamiento de datos y Sockets (WebSocket) para la comunicación en tiempo real. Además, contribuí en el diseño y desarrollo de RESTful API utilizando el Framework Flask de Python.",
+        "year": "2020-06 - 2020-12"
     },
     {
         "id": 4,
-        "title": "Corporación Universitaria del Caribe",
-        "meta": "Backend Developer",
-        "text": "Actualización e integración de redes del conocimiento, aprendizaje y saber en la comunidad virtual Ondas Sucre.",
-        "year": "2019-02 - 2019-11"
+        "title": "Corporación Universitaria del Caribe, Sincelejo - Colombia",
+        "meta": "Producción de Multimedia",
+        "text": "Supervisé la inducción y producción de contenido multimedia para los grupos de investigación afiliados al programa Ondas Sucre en instituciones públicas, empleando tecnologías de la información y comunicación (TIC).",
+        "year": "2020-01 - 2020-05"
     },
     {
         "id": 5,
-        "title": "Instituto Nacional de Vías - INVIAS",
-        "meta": "Android Developer",
-        "text": "Diseño e implementación de una aplicación móvil para la captura y organización de la información a partir del chat de directores con el fin de obtener un informe diario de eventos sobre la red vial nacional de acuerdo a los tributos requeridos.",
-        "year": "2017-08 - 2018-12"
+        "title": "Corporación Universitaria del Caribe, Sincelejo - Colombia",
+        "meta": "Backend Developer",
+        "text": "Implementé actualizaciones e integraciones en la comunidad virtual Ondas Sucre, utilizando Framework Laravel, aumentando la participación de usuarios en un 20% y mejorando la organización y accesibilidad de la información. Implementé APIs, gestioné bases de datos en MySQL y diseñé una interfaz web responsive con tecnologías como JavaScript y HTML5, fortaleciendo la comunidad y fomentando la colaboración.",
+        "year": "2019-02 - 2019-11"
     },
     {
         "id": 6,
-        "title": "Corporación Universitaria del Caribe",
-        "meta": "Backend Developer",
-        "text": "Programación de un espacio de trabajo virtual para el diálogo de saberes y la negociación cultural, que incluye el desarrollo de actividades de Ciencia, Tecnología e Innovación. Comunidad Virtual Ondas Sucre.",
-        "year": "2016-03 - 2017-05"
+        "title": "Instituto Nacional de Vías - INVIAS, Sincelejo - Colombia",
+        "meta": "Android Developer",
+        "text": "Realicé el análisis e implementación de una aplicación móvil en Android para capturar y organizar información del chat de directores, generando informes diarios sobre la red vial nacional con los tributos requeridos. La aplicación móvil optimizó la captura de datos, agilizó la generación de informes y mejoró la toma de decisiones, ahorrando tiempo y recursos a la organización.",
+        "year": "2017-08 - 2018-12"
     },
     {
         "id": 7,
-        "title": "FUNDIMUR",
+        "title": "Corporación Universitaria del Caribe, Sincelejo - Colombia",
         "meta": "Backend Developer",
-        "text": "Desarrollador web para construir una aplicación web que ayude al pensamiento crítico de los estudiantes de las diferentes instituciones educativas del departamento Sucre.",
+        "text": "Dirigí el análisis e implementación de la Comunidad Virtual Ondas Sucre, un espacio digital basado que facilita el diálogo de saberes y la negociación cultural. La plataforma permite el desarrollo de actividades de Ciencia, Tecnología e Innovación, fomentando la colaboración entre diferentes comunidades y el intercambio de conocimientos. Este proyecto, desarrollado con el Framework Laravel de PHP, incluyó la integración de tecnologías como MySQL, JavaScript y HTML5.",
+        "year": "2016-03 - 2017-05"
+    },
+    {
+        "id": 8,
+        "title": "FUNDIMUR, Sincelejo - Colombia",
+        "meta": "Backend Developer",
+        "text": "Encabecé en el análisis e implementación de una aplicación web diseñada para fomentar el pensamiento crítico entre los estudiantes de diversas instituciones educativas del departamento de Sucre. Esta plataforma, construida utilizando el Framework CodeIgniter de PHP, proporciona herramientas y recursos que promueven el desarrollo de habilidades de análisis y reflexión en los estudiantes.",
         "year": "2014-08 - 2015-04"
     }
 ]
